@@ -1,25 +1,21 @@
-# default profile always active
+
 server:
   port: 8888
 
+spring:
+  cloud:
+    config:
+      server:
+        git:
+          uri: ${HOME}/config-repo
 
-my:
-  greeting: HELLO WORLD!
-  list:
-    values: ONE,TWO,THREE
-
-db:
-  value: "{host: 'http://_____', userName: 'foo', password: 'pass123!'}"
-  host: http://localhost
-  port: 3306
-
-app:
-  name: Mins app
-  description: Welcome to ${app.name}
-
-
-management:
-  endpoints:
-    web:
-      exposure:
-        include: "*"
+#app:
+#  name: Mins app
+#  description: Welcome to ${app.name}
+#
+#
+#management:
+#  endpoints:
+#    web:
+#      exposure:
+#        include: "*"
