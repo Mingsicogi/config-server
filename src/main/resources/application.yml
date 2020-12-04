@@ -1,4 +1,3 @@
-
 server:
   port: 8888
 
@@ -8,14 +7,3 @@ spring:
       server:
         git:
           uri: ${HOME}/config-repo
-
-#app:
-#  name: Mins app
-#  description: Welcome to ${app.name}
-#
-#
-#management:
-#  endpoints:
-#    web:
-#      exposure:
-#        include: "*"
