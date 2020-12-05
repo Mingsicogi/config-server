@@ -1,0 +1,12 @@
+# test profile some override properties
+my:
+  greeting: HELLO TEST WORLD!
+
+db:
+  value: "{host: 'http://_____-test', userName: 'foo-test', password: 'test-pass123!'}"
+  host: http://localhost-test
+  port: 3306
+
+app:
+  name: Mins app(test)
+  description: Welcome to ${app.name}

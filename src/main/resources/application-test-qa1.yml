@@ -1,0 +1,7 @@
+# test profile some override properties
+my:
+  greeting: HELLO TEST-QA1 WORLD!
+
+app:
+  name: Mins app(test-qa1)
+  description: Welcome to ${app.name}

@@ -1,0 +1,25 @@
+# default profile always active
+server:
+  port: 8888
+
+
+my:
+  greeting: HELLO WORLD!
+  list:
+    values: ONE,TWO,THREE
+
+db:
+  value: "{host: 'http://_____', userName: 'foo', password: 'pass123!'}"
+  host: http://localhost
+  port: 3306
+
+app:
+  name: Mins app
+  description: Welcome to ${app.name}
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
