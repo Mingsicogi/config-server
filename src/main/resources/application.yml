@@ -6,4 +6,4 @@ spring:
     config:
       server:
         git:
-          uri: ${HOME}/config-repo
+          uri: https://github.com/Mingsicogi/mins-properties
